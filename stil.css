@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+.link, .galerija img, .galerija iframe, .galerija video, .galerija audio, .galerija a{
+	margin-left: 20px;
+}
+
+/*tekst*/
+h1, h2{
+	margin: 20px;
+	font-family: Verdana, "sans-serif";
+}
+h2{
+	color: darkblue;
+}
+p{
+	color: darkblue;
+	font-family: Verdana, "sans-serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: white;
+	padding: 20px;
+	margin: 20px;
+}
+.paragraf{
+	color: darkblue;
+	background-color: #deeeff;
+	width: 95%;
+}
+mark{
+	background-color: lightblue;
+}
+
+
+/*linkovi*/
+a:link{
+	color: black;
+	background-color: white;
+	padding: 5px;
+	line-height: 40px;
+	text-decoration: none;
+
+}
+a:hover{
+	background-color: darkblue;
+	color: white;
+	text-decoration: none;
+}
+
+
+/*o meni*/
+.omeni{
+	margin-top:50px;
+}
+.liste{
+	color: darkblue;
+	border: 3px solid #deeeff;
+	width: 50%;
+	padding: 20px;
+	margin: 20px;
+}
+
+/*galerija*/
+.galerija{
+	margin-top:50px;
+}
+.slike{
+	color: darkblue;
+	background-color: #deeeff;
+	width: 100%;
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+img{
+	height: 400px;
+}
+iframe, video{
+	padding-top: 20px;
+}
